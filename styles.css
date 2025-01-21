@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Customizing navbar colors */
+.navbar {
+    background-color: #0056b3; /* Darker blue */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Custom main content styles */
+main {
+    background-color: #f8f9fa; /* Light gray */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer adjustments */
+footer {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+footer p:hover {
+    color: #fff;
+}
+
+/* Custom Navbar */
+.custom-navbar {
+    background: linear-gradient(to right, #5a644e, #97a37f); /* Sage green gradient */
+    opacity: .8;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    padding: 5px 15px; /* Add some padding around the brand */
+    color: white !important;
+}
+
+.navbar-brand:hover {
+    color: #f9f9f9 !important; /* Slight hover effect */
+}
+
+/* Button adjustments for icons */
+.btn-outline-light {
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #333;
+}
+
+/* Add space between items */
+.nav-item {
+    margin: 0 8px;
+}
+
